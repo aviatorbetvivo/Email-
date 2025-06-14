@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disparador de E-mails</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>🚀 Disparador de E-mails em Massa</h1>
+        <form id="emailForm">
+            <div class="form-group">
+                <label for="emails">Destinatários (separados por vírgula ou um por linha):</label>
+                <textarea id="emails" name="emails" rows="5" required placeholder="email1@exemplo.com, email2@exemplo.com"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" id="submitBtn">Enviar E-mails</button>
+        </form>
+        <div id="status"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
