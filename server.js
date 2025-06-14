@@ -23,8 +23,8 @@ mongoose.connect(mongoUri)
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'seu-email-aqui@gmail.com', // 👈 SEU E-MAIL DO GMAIL
-        pass: 'sua-senha-de-app-aqui'       // 👈 SUA SENHA DE APP GERADA
+        user: 'heltonrodriques770@gmail.com', // 👈 SEU E-MAIL DO GMAIL
+        pass: 'ldso wpdd hsuk pqgj'       // 👈 SUA SENHA DE APP GERADA
     },
     tls: {
         rejectUnauthorized: false
